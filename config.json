@@ -1,0 +1,29 @@
+{
+  "options": {
+    "paths": {
+      "root": "/usr/src/app/node_modules/tileserver-gl-styles",
+      "fonts": "/data/fonts",
+      "styles": "/styles",  
+      "mbtiles": "/data",   
+      "pmtiles": "/data"
+    }
+  },
+  "styles": {
+    "distritos-style": {
+      "style": "/styles/distritos-style.json",
+      "data": "distritos"
+    },
+    "manzanas-style": {
+      "style": "/styles/manzanas-style.json",
+      "data": "manzanas"  
+    }
+  },
+  "data": {
+    "distritos": {
+      "mbtiles": "data/distritos.mbtiles"
+    },
+    "manzanas": {
+      "mbtiles": "data/manzanas.mbtiles"  
+    }
+  }
+}
