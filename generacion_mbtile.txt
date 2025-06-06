@@ -1,0 +1,18 @@
+sudo apt-get update
+sudo apt-get install tippecanoe
+
+tippecanoe -o /home/alexisgcg/tileserver/data/manzanas.mbtiles /home/alexisgcg/tileserver/data/manzanas_valores_cache.geojson
+
+tippecanoe -o /home/alexisgcg/tileserver/data/distritos.mbtiles /home/alexisgcg/tileserver/data/distritos_cache.geojson
+
+--------------------------------------------------------------------
+Nivel de zoom:
+tippecanoe -o /home/alexisgcg/tileserver/data/manzanas.mbtiles -z 14 -Z 10 /home/alexisgcg/tileserver/data/manzanas_valores_cache.geojson
+
+tippecanoe -o /home/alexisgcg/tileserver/data/distritos.mbtiles -z 14 -Z 10 /home/alexisgcg/tileserver/data/distritos_cache.geojson
+
+--------------------------------------------------------------------
+
+Verificación:
+/home/alexisgcg/tileserver/data/manzanas.mbtiles
+/home/alexisgcg/tileserver/data/distritos.mbtiles
